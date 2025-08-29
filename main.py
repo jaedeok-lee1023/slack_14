@@ -56,7 +56,7 @@ def main():
             f"\n"
             f"\n"
             f" :ck11: * <https://static.wixstatic.com/media/50072f_ea6f09357fe44c53a5b8e4fcd2805d61~mv2.png|자산 취급 품목 리스트>*\n\n"
-            f" :ck11: * <https://static.wixstatic.com/media/50072f_df6ebbab79f741ae89d27bed689e2bc8~mv2.png|자산 취급 주의 사항>*\n\n"
+            f" :ck11: * <https://static.wixstatic.com/media/50072f_29417b7309834bc8b6a90b0963cda334~mv2.png|자산 취급 주의 사항>*\n\n"
             f" :ck11: * <https://static.wixstatic.com/media/50072f_524d17c8b9a244148d97038df010aaae~mv2.png|자산 분해,훼손 금지 안내>*\n\n"
             f"\n\n"
             f":phone: *문의사항* : 총무/시설_담당자 <@U05NUU65F19> <@U05P7L4MY1F> 및 각 부서별 자산 담당자 \n\n"
