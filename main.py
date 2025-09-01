@@ -44,7 +44,7 @@ def main():
         notice_msg = (
             f"안녕하세요? 평택 클러스터 구성원 여러분!\n"
             f"\n\n"
-            f"투명하고 정확한 컬리 자산 관리를 위해 *<https://static.wixstatic.com/media/50072f_f952f1f91caf42909fb376a73cbcc167~mv2.png|[부서별 자산 담당자]>* 와 *[자산관련 준수사항]* 에 대해 공유 드립니다.\n"
+            f"투명하고 정확한 컬리 자산 관리를 위해 *<https://static.wixstatic.com/media/50072f_4ce7c5e02c854a32bb2492d3abc0d70a~mv2.png|[부서별 자산 담당자]>* 와 *[자산관련 준수사항]* 에 대해 공유 드립니다.\n"
             f"\n"
             f"구성원 여러분들의 많은 도움과 협조를 통해 건강하고 안전한 우리 클러스터가 되도록 부탁드립니다.\n"
             f"\n"
