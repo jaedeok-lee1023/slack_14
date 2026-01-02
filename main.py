@@ -48,29 +48,27 @@ def send_slack_message(message, channel):
 def main():
     for cluster in clusters:
         # 메시지 제목 설정
-        header = f":loudspeaker: *『인사총무팀 공지』* <!channel>\n\n"
+        header = f"*[공지｜클러스터 자산관리 Process 안내]*\n\n\n"
 
         notice_msg = (
-            f"안녕하세요? 평택 클러스터 구성원 여러분!\n"
-            f"\n\n"
+            f"1. *중요도* : \n"
+            f"2. *대상* : 평택 클러스터 임직원 전체\n"
+            f"3. *주요 내용*\n\n"
+            f"\n"
+            f"안녕하세요? 평택 클러스터 구성원 여러분!\n\n"
             f"투명하고 정확한 컬리 자산 관리를 위해 *<https://static.wixstatic.com/media/50072f_4ce7c5e02c854a32bb2492d3abc0d70a~mv2.png|[부서별 자산 담당자]>* 와 *[자산관련 준수사항]* 에 대해 공유 드립니다.\n"
             f"\n"
             f"구성원 여러분들의 많은 도움과 협조를 통해 건강하고 안전한 우리 클러스터가 되도록 부탁드립니다.\n"
             f"\n"
             f"\n"
             f"📌 *자산관련 준수사항*\n"
-            f"1️⃣ 자산 (아래 취급품목 참고)에 대해서 *위치 이동이 필요할 경우 [부서별 자산 담당자] 내용 공유*:bangbang:\n"
-            f"2️⃣ 자산 품목에 대해 *라벨 스티커 훼손 금지*:x:\n"
-            f"3️⃣ 자산 *임의 해체 및 낙서/덧붙임 등 금지*:x:\n"
+            f"1️⃣ 자산 *<https://static.wixstatic.com/media/50072f_ea6f09357fe44c53a5b8e4fcd2805d61~mv2.png|(취급품목)>*에 대해서 *위치 이동이 필요할 경우 [부서별 자산 담당자] 내용 공유*:bangbang:\n"
+            f"2️⃣ 자산 품목에 대해 *<https://static.wixstatic.com/media/50072f_29417b7309834bc8b6a90b0963cda334~mv2.png|취급 주의사항 참고>*\n"
+            f"3️⃣ 자산 *<https://static.wixstatic.com/media/50072f_524d17c8b9a244148d97038df010aaae~mv2.png|자산 분해,훼손 금지 안내>*:x:\n\n"
             f"\n"
             f"\n"
-            f" :ck11: * <https://static.wixstatic.com/media/50072f_ea6f09357fe44c53a5b8e4fcd2805d61~mv2.png|자산 취급 품목 리스트>*\n\n"
-            f" :ck11: * <https://static.wixstatic.com/media/50072f_29417b7309834bc8b6a90b0963cda334~mv2.png|자산 취급 주의 사항>*\n\n"
-            f" :ck11: * <https://static.wixstatic.com/media/50072f_524d17c8b9a244148d97038df010aaae~mv2.png|자산 분해,훼손 금지 안내>*\n\n"
-            f"\n\n"
-            f":phone: *문의사항* : 총무/시설_담당자 <@U05NUU65F19> <@U05P7L4MY1F> 및 각 부서별 자산 담당자 \n\n"
-            f"감사합니다.  😊\n"
-            f"\n"
+            f"*:slack: 문의사항 : 총무/시설_담당자 <@U05NUU65F19> <@U05P7L4MY1F> 및 각 부서별 자산 담당자* \n\n"
+            f"감사합니다. 😊\n"
         )
  
 # 메시지 본문
