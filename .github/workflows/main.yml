@@ -26,7 +26,8 @@ jobs:
       - name: Check if this week is an even-numbered week
         id: check_week
         run: |
-          week_number=$(date +%U)
+          # %-U로 수정하여 08 -> 8로 인식되게 변경완료
+          week_number=$(date +%-U)
           if [ $((week_number % 2)) -eq 0 ]; then
             echo "This is an even-numbered week. Proceeding."
             echo "run_job=true" >> $GITHUB_ENV
