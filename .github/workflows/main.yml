@@ -3,7 +3,7 @@ name: slack CI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "57 14 * * 4"   # UTC 기준, 매주 목요일 14시 57분 실행 (한국시간 오후 11시 57분)
+    - cron: "57 4 * * 4"   # UTC 기준, 매주 목요일 04시 57분 실행 (한국시간 13시 57분)
 
 jobs:
   post_announcement_message:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: action code checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # v3에서 v4로 업데이트 (경고 해결)
 
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # v4에서 v5로 업데이트 (경고 해결)
         with:
           python-version: "3.10"
 
